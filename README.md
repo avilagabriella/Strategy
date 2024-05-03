@@ -15,7 +15,7 @@ de fatores como orçamento ou restrições de tempo.
 
 # Diagrama  de classe: 
 
-![Captura de tela 2024-05-03 092055](https://github.com/avilagabriella/Strategy/assets/140626679/5bb86ecc-ea46-406e-b221-6312e44f61c5)
+![Captura de tela 2024-05-03 092700](https://github.com/avilagabriella/Strategy/assets/140626679/92dcebf4-dc8b-44b3-a07e-909f94b0e745)
 
 
 # JavaScript com a solução do problema: 
