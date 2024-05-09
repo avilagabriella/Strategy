@@ -72,10 +72,8 @@ viajante.irParaAeroporto();
 
 # Solução:
 
-1- O padrão Strategy sugere que você pegue uma classe que faz algo específico de muitas maneiras diferentes e extraia todos esses algoritmos em classes separadas chamadas estratégias.
+1- Definição das Estratégias: São definidos três objetos (estrategiaOnibus, estrategiaTaxi, estrategiaBicicleta), cada um com um método irParaAeroporto que descreve como chegar ao aeroporto usando um ônibus, táxi ou bicicleta, respectivamente.
 
-2- A classe original, chamada contexto, deve possuir um campo para armazenar uma referência a uma das estratégias. O contexto delega o trabalho a um objeto de estratégia vinculado, em vez de executá-lo sozinho.
+2- Contexto: A classe Viajante representa o contexto onde uma estratégia será usada. Ele possui um método irParaAeroporto, que delega a chamada ao método irParaAeroporto da estratégia atualmente definida.
 
-3- O contexto não é responsável por selecionar um algoritmo apropriado para o trabalho. Em vez disso, o cliente passa a estratégia desejada para o contexto. Na verdade, o contexto não sabe muito sobre estratégias. Funciona com todas as estratégias através da mesma interface genérica, que expõe apenas um único método de acionamento do algoritmo encapsulado na estratégia selecionada.
-
-4- Desta forma o contexto torna-se independente de estratégias concretas, podendo adicionar novos algoritmos ou modificar os existentes sem alterar o código do contexto ou outras estratégias.
+3- Exemplo de Uso: Um objeto viajante é instanciado com a estratégia de ônibus. Ele chama irParaAeroporto, que imprime a mensagem relacionada à estratégia de ônibus. Em seguida, a estratégia é alterada dinamicamente para táxi e bicicleta, e a mesma função irParaAeroporto é chamada, mas agora ela imprime mensagens relacionadas a cada uma das novas estratégias.
