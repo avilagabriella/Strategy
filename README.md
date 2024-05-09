@@ -69,3 +69,13 @@ viajante.setEstrategia(estrategiaBicicleta);
 console.log("\nViajante agora escolheu a bicicleta:");
 viajante.irParaAeroporto();
 ```
+
+# Solução:
+
+1- O padrão Strategy sugere que você pegue uma classe que faz algo específico de muitas maneiras diferentes e extraia todos esses algoritmos em classes separadas chamadas estratégias.
+
+2- A classe original, chamada contexto, deve possuir um campo para armazenar uma referência a uma das estratégias. O contexto delega o trabalho a um objeto de estratégia vinculado, em vez de executá-lo sozinho.
+
+3- O contexto não é responsável por selecionar um algoritmo apropriado para o trabalho. Em vez disso, o cliente passa a estratégia desejada para o contexto. Na verdade, o contexto não sabe muito sobre estratégias. Funciona com todas as estratégias através da mesma interface genérica, que expõe apenas um único método de acionamento do algoritmo encapsulado na estratégia selecionada.
+
+4- Desta forma o contexto torna-se independente de estratégias concretas, podendo adicionar novos algoritmos ou modificar os existentes sem alterar o código do contexto ou outras estratégias.
