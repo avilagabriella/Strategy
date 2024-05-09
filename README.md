@@ -7,7 +7,7 @@
 |Situação e Problema|
 |-|
 | Imagine que você tem que chegar ao aeroporto. Você pode pegar um ônibus, pedir um táxi, ou subir em sua bicicleta. Essas são suas estratégias de transporte. Você pode escolher uma das estratégias dependendo de fatores como orçamento ou restrições de tempo.
-|![Diagrama de Classes](https://github.com/avilagabriella/Strategy/assets/140626679/92dcebf4-dc8b-44b3-a07e-909f94b0e745)|
+|![Captura de tela 2024-05-09 084436](https://github.com/avilagabriella/Strategy/assets/140626679/749656c7-2723-4965-a387-a78a55935c08)|
 
 
 
