@@ -10,9 +10,9 @@ intercambiáveis.
 
 |Situação e Problema|
 |-|
-|1 - Imagine que você tem que chegar ao aeroporto. Você pode pegar um ônibus, pedir um táxi, ou subir em suabicicleta. Essas são suas estratégias de transporte.
-Você pode escolher uma das estratégias dependendo de fatores como orçamento ou restrições de tempo.
-|![Diagrama de Classes](https://github.com/avilagabriella/Strategy/assets/140626679/92dcebf4-dc8b-44b3-a07e-909f94b0e745)|
+| Imagine que você tem que chegar ao aeroporto. Você pode pegar um ônibus, pedir um táxi, ou subir em suabicicleta. Essas são suas estratégias de transporte.
+                       Você pode escolher uma das estratégias dependendo de fatores como orçamento ou restrições de tempo.
+              |![Diagrama de Classes](https://github.com/avilagabriella/Strategy/assets/140626679/92dcebf4-dc8b-44b3-a07e-909f94b0e745)|
 
 
 
