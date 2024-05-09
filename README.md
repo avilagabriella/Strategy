@@ -8,7 +8,7 @@ intercambiáveis.
 
 
 
-|Situação e problema|
+|Situação e Problema|
 |-|
 |1 - Imagine que você tem que chegar ao aeroporto. Você pode pegar um ônibus, pedir um táxi, ou subir em suabicicleta. Essas são suas estratégias de transporte.
 Você pode escolher uma das estratégias dependendo de fatores como orçamento ou restrições de tempo.
