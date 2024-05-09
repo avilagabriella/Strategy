@@ -68,7 +68,7 @@ viajante.irParaAeroporto();
 
 # Solução:
 
-1- DEFINIÇÃO DE ESTRATÉGIAS: São definidos três objetos (*estrategiaOnibus*, *estrategiaTaxi*, *estrategiaBicicleta*), cada um com um método *irParaAeroporto* que descreve como chegar ao aeroporto usando um ônibus, táxi ou bicicleta, respectivamente.
+1- DEFINIÇÃO DE ESTRATÉGIAS: São definidos três objetos (**estrategiaOnibus**, *estrategiaTaxi*, *estrategiaBicicleta*), cada um com um método *irParaAeroporto* que descreve como chegar ao aeroporto usando um ônibus, táxi ou bicicleta, respectivamente.
 
 2- CONTEXTO: A classe *Viajante* representa o contexto onde uma estratégia será usada. Ele possui um método *irParaAeroporto*, que delega a chamada ao método *irParaAeroporto* da estratégia atualmente definida.
 
