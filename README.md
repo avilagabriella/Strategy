@@ -1,10 +1,6 @@
 # Strategy - Design Patterns
 
- O Strategy é um padrão de projeto
-comportamental que permite que você defina
-uma família de algoritmos, coloque-os em
-classes separadas, e faça os objetos deles
-intercambiáveis.
+ O Strategy é um padrão de projetocomportamental que permite que você definauma família de algoritmos, coloque-os em classes separadas, e faça os objetos delesintercambiáveis.
 
 
 
@@ -72,8 +68,8 @@ viajante.irParaAeroporto();
 
 # Solução:
 
-1- Definição das Estratégias: São definidos três objetos (estrategiaOnibus, estrategiaTaxi, estrategiaBicicleta), cada um com um método irParaAeroporto que descreve como chegar ao aeroporto usando um ônibus, táxi ou bicicleta, respectivamente.
+1- *Definição das Estratégias:* São definidos três objetos (*estrategiaOnibus*, *estrategiaTaxi*, *estrategiaBicicleta*), cada um com um método *irParaAeroporto* que descreve como chegar ao aeroporto usando um ônibus, táxi ou bicicleta, respectivamente.
 
-2- Contexto: A classe Viajante representa o contexto onde uma estratégia será usada. Ele possui um método irParaAeroporto, que delega a chamada ao método irParaAeroporto da estratégia atualmente definida.
+2- *Contexto:* A classe *Viajante* representa o contexto onde uma estratégia será usada. Ele possui um método *irParaAeroporto*, que delega a chamada ao método *irParaAeroporto* da estratégia atualmente definida.
 
-3- Exemplo de Uso: Um objeto viajante é instanciado com a estratégia de ônibus. Ele chama irParaAeroporto, que imprime a mensagem relacionada à estratégia de ônibus. Em seguida, a estratégia é alterada dinamicamente para táxi e bicicleta, e a mesma função irParaAeroporto é chamada, mas agora ela imprime mensagens relacionadas a cada uma das novas estratégias.
+3- *Exemplo de Uso:* Um objeto *viajante* é instanciado com a estratégia de ônibus. Ele chama *irParaAeroporto*, que imprime a mensagem relacionada à estratégia de ônibus. Em seguida, a estratégia é alterada dinamicamente para táxi e bicicleta, e a mesma função *irParaAeroporto* é chamada, mas agora ela imprime mensagens relacionadas a cada uma das novas estratégias.
